@@ -1,23 +1,28 @@
 
 
-//variables
+//objeto en ts
 
-var num1=2;
-let num2=3;
-const num3=4;
-
-/* function suma(){
-    const tem=3;
-    console.log(tem);
-    tem=99;
+interface Alumno{
+    matricula:number;
+    nombre:string;
+    email:string;
 }
 
-suma(); */
+const alumno:Alumno={
+    nombre:'juan',
+    matricula:1234,
+    email:"juan@gmail.com"
+}
 
-let nombre:string='Roberto';
-let num:number=23;
-let activo:boolean=true;
+let mascotas=['perro','gato','perico']
 
-let matricula:number|string="266jshs";
-matricula=8273263;
-matricula=false;
+mascotas[1]='shshs';
+mascotas.push('nuevo')
+
+let tem:(number|string) []=[]
+tem.push('Nombre');
+tem.push(232);
+
+console.log(mascotas)
+
+console.log(alumno)
