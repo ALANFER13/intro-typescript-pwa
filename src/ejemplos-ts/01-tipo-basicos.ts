@@ -20,4 +20,4 @@ let activo:boolean=true;
 
 let matricula:number|string="266jshs";
 matricula=8273263;
-matricula=false;
+//matricula=false;
